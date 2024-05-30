@@ -1,9 +1,10 @@
-from PIL import Image, ImageDraw, ImageFont
-import os
+from PIL import Image, ImageDraw, ImageFont  #code by @luca 
+import os                                    # I know its in english but i want to be abel to sent this so other peopel not just romanians
+
 
 # Path to the input image
-input_image_path = r"File"
-output_ascii_image_path = r"Output"
+input_image_path = r"File" #path to the file that you want to tunr into ASCII
+output_ascii_image_path = r"Output" #location for the file , ir has to end in .png/.jpg
 
 # Expanded set of ASCII characters including space for pure white
 ASCII_CHARS = ' 0-+,='
